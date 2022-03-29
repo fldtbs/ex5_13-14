@@ -4,7 +4,6 @@ public class Rect implements Shape{
 	private int width, height;
 
 	public Rect(int width, int height) {
-		super();
 		this.width = width;
 		this.height = height;
 	}
@@ -19,7 +18,7 @@ public class Rect implements Shape{
 	public double getArea() {
 		// TODO Auto-generated method stub
 		double area = width * height;//사각형 넓이 공식
-		return 0;
+		return area;
 	}
 	
 }

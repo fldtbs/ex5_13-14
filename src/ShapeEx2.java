@@ -12,7 +12,7 @@ public class ShapeEx2 {
 //		Oval ova = new Oval(20, 30);
 //		Rect rec = new Rect(10, 40);
 		
-		for(int i=0; 1<list.length; i++) list[i].redraw();
+		for(int i=0; i<list.length; i++) list[i].redraw();
 		for(int i=0; i<list.length; i++) System.out.println("¸éÀûÀº " + list[i].getArea());
 	}
 

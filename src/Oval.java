@@ -4,7 +4,6 @@ public class Oval implements Shape{
 	private int width, height;
 
 	public Oval(int width, int height) {
-		super();
 		this.width = width;
 		this.height = height;
 	}
